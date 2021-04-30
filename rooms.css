@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6
+{
+	position: relative;
+	opacity: 0.85;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+
+/*
+   fixed = parallax
+   scroll = normal
+*/
+	background-attachment: fixed;
+}
+
+.pimg1{
+	background-image: url('images/room1.jpg');
+	min-height: 100%;
+}
+
+.pimg2{
+	background-image: url('images/double.jpg');
+	min-height: 100%;
+}
+
+.pimg3{
+	background-image: url('images/psuit.jpg');
+	min-height: 100%;
+}
+.pimg4{
+	background-image: url('images/single.jpg');
+	min-height: 100%;
+}
+.pimg5{
+	background-image: url('images/delux.jpg');
+	min-height: 100%;
+}
+
+.section
+{   font-family:'Playfair Display', serif;
+	text-align: center;
+	padding: 50px 80px;
+	line-height: 3.0;
+	font-size: 25px;
+}
+
+.section-light
+{
+	background-color: #e6e0e0;
+	color: rgb(34, 33, 33);
+	font-size: 25px;
+	
+
+}
+.section-dark
+{
+	background-color: #2a2e34;
+	color: #ddd;
+	font-size: 25px;
+	
+}
+
+.ptext
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+    font-size: 37px;
+    font-weight: bold;
+	letter-spacing: 8px;
+	
+	text-transform: uppercase;
+}
+
+.ptext .border
+{ 
+	background-color: rgb(131, 21, 21);
+	color: #000;
+	text-transform: uppercase;
+	box-shadow: 10px 10px #2a2e34;
+	padding: 20px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+	text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px #0d0d0e;
+	font-weight: 700;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto 1px;
+   
+}
+.logo{
+    height: 80px;
+    width: auto;
+    /* float: left; */
+    margin-top: 15px;
+}
+.main-nav{
+    float: right;
+    margin-top: 50px;
+	position: sticky;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 0;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300px;
+    font-size: 90%;
+	font-style: bold;
+}
+.main-nav li a:hover
+{
+    border-bottom: 5px solid #100f11;
+}
+.btn a:hover{
+	font-size:25px ;
+}
+.btn .btn-secondary{
+	font-size: 20px;
+	font-weight: 400;
+	color: #c74444;
+	background-color: rgb(14, 13, 13);
+}
+.btn .btn-light{
+	font-size: 20px;
+	font-weight: 400;
+	color: #0a0a0a;
+	background-color: black;
+}
+.para{
+	font-size: 50px;
+}
