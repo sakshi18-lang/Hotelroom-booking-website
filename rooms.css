@@ -53,7 +53,7 @@ body, html{
 {   font-family:'Playfair Display', serif;
 	text-align: center;
 	padding: 50px 80px;
-	line-height: 2.0;
+	line-height: 3.0;
 	font-size: 25px;
 }
 
@@ -80,7 +80,7 @@ body, html{
 	width: 100%;
 	text-align: center;
 	color: #000;
-    font-size: 37px;
+    font-size: 20px;
     font-weight: bold;
 	letter-spacing: 8px;
 	
@@ -111,7 +111,7 @@ body, html{
     height: 80px;
     width: auto;
     /* float: left; */
-    margin-top: 15px;
+    margin-top: 4px;
 }
 .main-nav{
     float: right;
@@ -128,29 +128,28 @@ body, html{
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 300px;
+    font-weight: 600px;
     font-size: 90%;
 	font-style: bold;
 }
 .main-nav li a:hover
 {
-    border-bottom: 5px solid #100f11;
+    border-bottom: 4px solid #100f11;
 }
-.btn a:hover{
-	font-size:25px ;
-}
+
 .btn .btn-secondary{
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 400;
 	color: #c74444;
-	background-color: rgb(14, 13, 13);
+	background-color: rgb(189, 33, 33);
 }
 .btn .btn-light{
 	font-size: 20px;
 	font-weight: 400;
-	color: #0a0a0a;
+	color: #f0e2e2;
 	background-color: black;
 }
-.para{
-	font-size: 20px;
+h3{
+	font-family: fantasy;
+	font-weight: 600;
 }
